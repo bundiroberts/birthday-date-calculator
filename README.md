@@ -1,4 +1,4 @@
-# BIRHDAY-DATE-CALCULATOR
+# BIRTHDAY-DATE-CALCULATOR
 ## Author -
 bundiroberts
 
