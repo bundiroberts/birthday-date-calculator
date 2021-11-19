@@ -64,7 +64,16 @@
 
         <p id="result"></p>
 
-</form>
+        <script>
+            var Year = document.getElementById("Year");
+            var Month = document.getElementById("Month");
+            var Day = document.getElementById("Day");
+            var result = document.getElementById("result");
+      
+            function a(){
+              var dates = new Date(Year.value,Month.value,Day.value);
+              var days=dates.getDay();
+    
 
 
     
