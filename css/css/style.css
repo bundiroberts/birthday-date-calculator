@@ -1,0 +1,51 @@
+h1 {
+    background-color: black;
+    padding:0px;
+    margin:0px;
+    color:white;
+ }
+h2 {
+    background-color: grey;
+    color:white;
+ }
+body {
+    background-color: white;
+    min-height: 200px;
+    width:700px;
+    margin:20px auto;
+    height:auto;
+    border-radius: 5px;
+ }
+input[type=tel]{
+    width:120px;
+    margin:auto;
+    height:30px;
+    border:2px solid black;
+    padding:12px;
+ }
+label {width:120px;
+ padding:4px 10px;
+ margin-left:20px;
+ display:inline-block;
+ margin-top: 30px;
+ }
+form { 
+    background-color: grey;
+    color:white;height:100%;
+ }
+label {
+    background-color: black;
+    color:white;
+ }
+button {
+    padding:4px 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: black;
+    color:white;}
+@media screen and(max-width:600px){
+   form{
+      width:100%;
+
+   }
+   }
