@@ -94,8 +94,8 @@
         <input type="tel" maxlength=2 id="Day"><br>
         
 
-        <button onClick="a()">male</button>
-        <button onClick="b()">female</button></form>
+        <button onClick="a()">Submit</button>
+        <!-- <button onClick=>female</button></form> -->
 
         <hr>
 
@@ -109,11 +109,11 @@
             var Day = document.getElementById("Day");
             var result = document.getElementById("result");
       
-            function a(){
-              var dates = new Date(Year.value,Month.value,Day.value);
-              var days=dates.getDay();
-    
-              switch(days)
+           function a(){
+          var dates = new Date(Year.value,Month.value,Day.value);
+          var days=dates.getDay();
+
+          switch(days)
           {
                 case 0:result.innerHTML="sunday"; 
                 alert("your Akan name is kwasi");
@@ -138,8 +138,8 @@
                 break;
              }
         }
-
-        function b(){
+      
+        function a(){
         var dates = new Date(Year.value,Month.value,Day.value);
         var days=dates.getDay();
 
