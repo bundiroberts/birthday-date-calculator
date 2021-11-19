@@ -9,7 +9,7 @@ Akan names are from Ghanian culture where first names are given as a day name th
 
 #Installation Instructions-
 
-Clone the project-
+clone the project-
 
 cd into the project folder-
 
