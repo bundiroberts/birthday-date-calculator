@@ -20,6 +20,10 @@
            background-color: grey;
            color:white;
         }
+        h4 {
+            color:aqua;
+            text-decoration: underline;
+        }
        body {
            background-color: white;
            min-height: 200px;
@@ -73,7 +77,7 @@
        <h2>use this calculator to check your akan name.
           input your date of birth and gender to find your Akan name
        </h2>
-
+                  <h4>choose your gender</h4>
        <div class="form-check">
         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
          male
@@ -94,7 +98,8 @@
         <input type="tel" maxlength=2 id="Day"><br>
         
 
-        <button onClick="a()">Submit</button>
+        <button onClick="a()">Male</button>
+        <button onClick="b()">Female</button>
         
 
         <hr>
@@ -139,7 +144,7 @@
              }
         }
       
-        function a(){
+        function b(){
         var dates = new Date(Year.value,Month.value,Day.value);
         var days=dates.getDay();
 
